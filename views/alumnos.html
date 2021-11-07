@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Menu De Navegacion Con Listas</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<h1 class="logo">Control de alumnos
+		</h1> 
+		<ul class="menu"><!--Menu de navegacion-->
+			<li><a href="#">Inicio</a></li>
+			
+			<li><a href="#">Clases</a></li>
+			<li><a href="#">Acerca De</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+        <h3>Escoja un curso</h3><!--Botones que rellenan las tablas automaticamente con los alumnos de dicho curso-->
+        <p>
+            <button>Desarrollo Web</button>
+            <button>Desarrollo humano</button>
+            <button>Programacion</button>
+        </p>
+        <from>
+            <table id="BaseAlumnos" width="100" border="2"><!--Tabla a rellenar con los campos indicados-->
+                <tr> 
+                    <th scope="row"><h2>Id Alumnos</h2></th> 
+                    <th scope="row"><h2>Apellido</h2></th>
+                    <th scope="row"><h2>Nombre</h2></th> 
+                    <th scope="row"><h2>Usuario</h2></th> 
+                    <th scope="row"><h2>Disponibilidad</h2></th> 
+                    <th scope="row"><h2>Ultima Conecxion</h2></th>  
+                </tr>
+               <!-- <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>               <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th> <th>
+                        <a></a>
+                    </th>
+                    <th>
+                        <a></a>
+                    </th>
+                </tr>-->
+            </table> 
+            <nav><!--Botones con acciones distintas-->
+            
+                    <button id= "Edit">Editar </button><!--boton que permite modificar la tabla-->
+                
+                   <button id="Add">Agregar</button><!--Agrega elementos-->
+               
+                   <button id="Save">Guardar</button><!--Guarda Los Cambios-->
+               
+                   <button id="Dowload">Descargar</button><!--Descarga el archivo CVS-->
+
+                   <button id="Delet">Borrar</button><!--Borra el elemento-->
+
+                   <button id="Cancel">Cancelar</button><!--Cancela retorna pagina inicio-->
+            </nav>
+
+
+        </from>
+	</body>
+</html>

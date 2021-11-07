@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" /><!--linreferencia estilo de fuente de google-->
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /><!--Utilizacion de animaciones-->
+  <link rel="stylesheet" href="../estilos/main.css"><!--css creado a mano-->
+        <title>ProyectoFinal</title>
+    </head>
+<body>
+  <div class="content">
+
+    <h1 class="logo">Ingresa Tus Datos
+    </h1> 
+    <div class="contact-wrapper animated bounceInUp">
+      <div class="contact-form">
+    <form   name="login"> 
+        
+             <h3>Usuario</h3>
+             <span class="cnt"> <!--Input de usuario-->
+               <P>
+               <input id="user" name="usuario" type="text" class="Input" /> 
+               </P>
+             </span> 
+          
+           <h3>Clave</h3>
+            <span class="cnt"><!--Input de contraseña-->
+               <p> 
+               <input id="pass" name="password" type="password" class="Input"  />
+               </p>
+             </span>
+             <span class="cnt"> 
+              <p class="block"><!--Boton Para Acceder-->
+               <button><input value="Reset" target="_parent" onclick="" type="button" class="boton"/></button>
+              </p>
+             
+             </span>
+            <!--Boton para Borrar-->
+             
+              <p class="block">
+              <button><input type="reset" name="Borrar"onclick="Login()" id="Borrar" value="Entrar" class="boton" /></button>
+              </p>           
+    </form> 
+      </div>
+    </div>
+  </div>
+ 
+      <script src="../modulos/funciones.js"></script>
+</body>
+</html>
